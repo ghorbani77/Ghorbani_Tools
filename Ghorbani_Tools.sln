@@ -5,6 +5,24 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghorbani_Tools", "Ghorbani_Tools.csproj", "{EBF0F8B0-346B-400B-A586-18724EB2C38F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common_Classes", "Common_Classes", "{9EEF64BC-BEF1-4FA8-84A1-C16191E25BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghorbani_Tools", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Tools\Ghorbani_Tools.csproj", "{4844AF61-75A5-4B33-905B-9FE5F527F976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common_Controls", "Common_Controls", "{4BE725D7-60A6-43B8-87CE-45759848DA3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumComboBox", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Custom_Controls\EnumComboBox\EnumComboBox.csproj", "{686D2530-0271-4C06-AB8C-370B5F420AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumListBox", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Custom_Controls\EnumListBox\EnumListBox.csproj", "{58AFA553-49CC-4166-A1CB-B4C156FE0728}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDataGrid", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Custom_Controls\GenericDataGrid\GenericDataGrid.csproj", "{E7DF3A0A-3BAD-48BE-92CB-4B64A135DAB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBox", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Custom_Controls\NumericTextBox\NumericTextBox.csproj", "{E48BA14E-6B17-405F-A3DB-395EEAD5F477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsiTextBox", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Custom_Controls\ParsiTextBox\ParsiTextBox.csproj", "{3F8B7D0D-79D0-4941-88B1-F7022A495A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringTextBox", "F:\nikamooz sandugh\Part01\Session02\Sample\FamilyLoan2020\Sadr_Custom_Controls\StringTextBox\StringTextBox.csproj", "{477502DB-A41A-44B8-8E0B-8CC64F46EA42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +33,46 @@ Global
 		{EBF0F8B0-346B-400B-A586-18724EB2C38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBF0F8B0-346B-400B-A586-18724EB2C38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBF0F8B0-346B-400B-A586-18724EB2C38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4844AF61-75A5-4B33-905B-9FE5F527F976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4844AF61-75A5-4B33-905B-9FE5F527F976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4844AF61-75A5-4B33-905B-9FE5F527F976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4844AF61-75A5-4B33-905B-9FE5F527F976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686D2530-0271-4C06-AB8C-370B5F420AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686D2530-0271-4C06-AB8C-370B5F420AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686D2530-0271-4C06-AB8C-370B5F420AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686D2530-0271-4C06-AB8C-370B5F420AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AFA553-49CC-4166-A1CB-B4C156FE0728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AFA553-49CC-4166-A1CB-B4C156FE0728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AFA553-49CC-4166-A1CB-B4C156FE0728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AFA553-49CC-4166-A1CB-B4C156FE0728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7DF3A0A-3BAD-48BE-92CB-4B64A135DAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7DF3A0A-3BAD-48BE-92CB-4B64A135DAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7DF3A0A-3BAD-48BE-92CB-4B64A135DAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7DF3A0A-3BAD-48BE-92CB-4B64A135DAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48BA14E-6B17-405F-A3DB-395EEAD5F477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48BA14E-6B17-405F-A3DB-395EEAD5F477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48BA14E-6B17-405F-A3DB-395EEAD5F477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48BA14E-6B17-405F-A3DB-395EEAD5F477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8B7D0D-79D0-4941-88B1-F7022A495A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8B7D0D-79D0-4941-88B1-F7022A495A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8B7D0D-79D0-4941-88B1-F7022A495A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8B7D0D-79D0-4941-88B1-F7022A495A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477502DB-A41A-44B8-8E0B-8CC64F46EA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477502DB-A41A-44B8-8E0B-8CC64F46EA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477502DB-A41A-44B8-8E0B-8CC64F46EA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477502DB-A41A-44B8-8E0B-8CC64F46EA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4844AF61-75A5-4B33-905B-9FE5F527F976} = {9EEF64BC-BEF1-4FA8-84A1-C16191E25BCE}
+		{686D2530-0271-4C06-AB8C-370B5F420AA4} = {4BE725D7-60A6-43B8-87CE-45759848DA3F}
+		{58AFA553-49CC-4166-A1CB-B4C156FE0728} = {4BE725D7-60A6-43B8-87CE-45759848DA3F}
+		{E7DF3A0A-3BAD-48BE-92CB-4B64A135DAB2} = {4BE725D7-60A6-43B8-87CE-45759848DA3F}
+		{E48BA14E-6B17-405F-A3DB-395EEAD5F477} = {4BE725D7-60A6-43B8-87CE-45759848DA3F}
+		{3F8B7D0D-79D0-4941-88B1-F7022A495A31} = {4BE725D7-60A6-43B8-87CE-45759848DA3F}
+		{477502DB-A41A-44B8-8E0B-8CC64F46EA42} = {4BE725D7-60A6-43B8-87CE-45759848DA3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADD2B99D-73CB-4737-9FF0-1BB65D8EA288}
